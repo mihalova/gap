@@ -690,6 +690,9 @@ DeclareOperation( "Eigenspaces", [ IsRing, IsMatrix ] );
 ##
 ##  <Description>
 ##  The eigenvectors of the matrix <A>A</A> over the field <A>F</A>.
+##  The eigenvectors are computed from the left such that <C><A>vec</A>*(<A>A</A>-<A>val</A>*<A>I</A>)=0</C>,
+##  where <A>vec</A> is an eigenvector, <A>A</A> is the matrix, <A>val</A> is an eigenvalue and <A>I</A>
+##  is the identity matrix.
 ##  </Description>
 ##  </ManSection>
 ##  <#/GAPDoc>
